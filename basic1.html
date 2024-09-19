@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/49c7ec5edd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>HOTEL</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 >Welcome to Paradise Hotel</h1>
+            <p style="font-size: 20px; margin: 10px;">We provide rooms at a very good price along with amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Our standard Cottage, the Jungle Lodge was the first unit to be started at Hornbill.The Jungle Lodge has Bedroom Hall and a Large front Porch where you can enjoy your evening Tea apart from the Shaded Gathering area in front where Family get togethers and Events take place</p></br>
+            <p>Modelled on an African Safari tent.</p>
+            <button class="Know-Button">Know more...</button>
+        </div>
+        <div class="Amenities">
+            <h3>Amenities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i> Speed Internet</li>
+                <li><i class="fa-solid fa-bowl-food"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy Rooms</h4>
+            <p>A single hotel room is a hotel room designed for one guest with a single bed. Single rooms are ideal for solo travelers who want a private and comfortable place to stay.</p>
+            <h4>Family Room</h4>
+            <p>When travelling with one or more children it is often useful to consider the amount of rooms you may need. If you are all staying in one hotel room then you need to make sure there is at least a balcony or terrace to sit on once your children have gone to bed.</p>
+            <h4>Duplex Room</h4>
+            <p>Duplex room, the duplex suite comprises two rooms situated different floors which are connected by an internal staircase.</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for Booking</h2>
+    <section class="form-container">
+<form>
+    <div class="form-group">
+        <label for="name">Your Full Name</label></br>
+        <input type="text" id="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Id</label></br>
+        <input type="email" id="email" required>
+    </div>
+    <div class="form-group">
+        <label for="booking-date">Date of Booking</label></br>
+        <input type="date" id="booking-date" required>
+    </div>
+    <div class="form-group">
+        <label for="room-type">Select Room Type</label></br>
+        <select name="room-type" id="room-type" required>
+            <option value="" selected disabled>Select...</option>
+            <option value="single room" required>single room</option>
+            <option value="Family room" required>Family room</option>
+            <option value="Duplex room" required>Duplex room</option>
+        </select>
+    </div>
+    <input type="submit" value="Book">
+</form>
+    </section>
+</body>
+</html>
